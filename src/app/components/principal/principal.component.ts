@@ -11,6 +11,8 @@ export class PrincipalComponent implements OnInit {
   numero:any;
   nombre_variable:number=0;
   vector: string[]=[]
+
+
   
   constructor(private nav: Router) { }
 
@@ -27,5 +29,6 @@ export class PrincipalComponent implements OnInit {
   {
     this.router.navigate(['web2'])
   }
+ 
 }
 

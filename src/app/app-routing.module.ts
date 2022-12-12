@@ -14,7 +14,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
     {
       path: 'web2', component: PaginadosComponent
     }
-  
+    
 ];
 
 @NgModule({

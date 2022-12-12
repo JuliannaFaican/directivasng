@@ -8,12 +8,14 @@ import { PaginaunoComponent } from './components/paginauno/paginauno.component';
 import { PaginadosComponent } from './components/paginados/paginados.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
     PaginaunoComponent,
-    PaginadosComponent
+    PaginadosComponent,
+
   ],
   imports: [
     BrowserModule,
